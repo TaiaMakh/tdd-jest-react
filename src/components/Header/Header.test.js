@@ -8,13 +8,13 @@ beforeEach(() => {
 });
 
 it("it should show logo", () => {
-  expect(getByTestId(container, 'logo')).toBeTruthy();
+  expect(getByTestId(container, "logo")).toBeTruthy();
 });
 
 it("should show search", () => {
-    expect(getByTestId(container, 'search')).toBeTruthy();
-  });
+  expect(getByTestId(container, "search")).toBeTruthy();
+});
 
-  it("should show menu", () => {
-    expect(getByTestId(container, 'menu')).toBeTruthy();
-  });
+it("should show menu", () => {
+  expect(getByTestId(container, "menu")).toBeTruthy();
+});
